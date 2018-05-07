@@ -1,0 +1,262 @@
+.overlay {
+  position: fixed; 
+  top: 0px; 
+  left: 0px;
+  background: #000;
+  opacity: 0.5;
+  z-index: 9000;
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow: hidden;
+}
+
+.overlay-ext {
+  position: fixed; 
+  top: 0px; 
+  left: 0px;
+  background: #000;
+  opacity: 0.7;
+  z-index: 9002;
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow: hidden;
+}
+
+.style {
+  width: auto;
+  height: auto;
+  display: none;
+  z-index: 9001;
+  overflow: hidden;
+  border: 3px solid #aaa;
+  background: url(../img/bg.png) #fdfdfd;
+  -webkit-border-radius:5px; 
+  -moz-border-radius:5px; 
+  -khtml-border-radius:5px;
+  border-radius: 5px;
+}
+
+.popup-close {
+  float: right;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+a.popup-close-btn {
+  background: url(../img/close.png);
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+  margin-left: -7px;
+}
+
+a:hover.popup-close-btn {
+  background: url(../img/close2.png);
+}
+
+button.btn-login {
+  background: url(../img/btn_login.png);
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:hover.btn-login {
+  background: url(../img/btn_login2.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+a.btn-logout {
+  background: url(../img/btn_logout2.png);
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+a:hover.btn-logout {
+  background: url(../img/btn_logout.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:disabled.btn-login {
+  background: url(../img/btn_login3.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button.btn-reg {
+  background: url(../img/btn_reg.png);
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:hover.btn-reg {
+  background: url(../img/btn_reg2.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:disabled.btn-reg {
+  background: url(../img/btn_reg4.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button.btn-add {
+  background: url(../img/btn_add2.png);
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:hover.btn-add {
+  background: url(../img/btn_add.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button.btn-ext {
+  background: url(../img/btn_ext2.png);
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:hover.btn-ext {
+  background: url(../img/btn_ext.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button.btn-up {
+  background: url(../img/btn_up2.png);
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:hover.btn-up {
+  background: url(../img/btn_up.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button.btn-add2 {
+  background: url(../img/btn_add2.png);
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:hover.btn-add2 {
+  background: url(../img/btn_add.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button.btn-pay {
+  background: url(../img/btn_pay2.png);
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+button:hover.btn-pay {
+  background: url(../img/btn_pay.png);
+  -webkit-border-radius:3px; 
+  -moz-border-radius:3px; 
+  -khtml-border-radius:3px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+.link_po {
+  color: #777;
+  font-size: 150%;
+}
